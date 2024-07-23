@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- this website template is based on https://www.free-css.com/free-css-templates/page290/maria-ferrero -->
+
+  <title>Keyboard Tester</title>
+
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/bootstrap-theme.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/KeyboardTester.css" rel="stylesheet">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700|Open+Sans:300,400,700" rel="stylesheet">
+
+    </head>
+    <body>
+      <header class="hero">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-md-offset-6 col-xs-12">
+              <div class="hero-text">
+                <h1>Keyboard Tester</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <section class="case-study">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h4 class="sub-heading">Keyboard Tester</h4>
+              <h2 class="heading">select your keyboard <span class="purple">model</span></h2>
+              <select class="ddl-model">
+                <option>Select your keyboard</option>
+              </select>
+              <br><br>
+              <button class="btn-clear">Clear Keyboard</button>
+
+              <div class="client-box">
+                <div class="keyboard"></div>
+              </div>
+
+              <br><br>
+              <h3 class="heading"><span class="purple">Test</span> your keyboard</h3>
+              <p>
+                After selecting your keyboard model from the dropdown, press the keys on the keyboard you want to
+                test.  Any key that is currently down will appear black, and those that have already been pressed
+                at least one will appear dark gray.  Untested keys are shown as white.
+              </p>
+              <p>
+                Click the <span class="purple">Clear Keyboard</span> button to remove any keys that you have tested.
+              </p>
+              <p>
+                If you cannot find your exact keyboard model, you should be able to find one that is close to your
+                actual model.  Please note that special keys, such as media keys, are not testable.  Also, any key
+                that your operating system prevents from being used in your browser will not be testable.
+              </p>
+
+              <br><br>
+              <h3 class="heading">Add <span class="purple">your</span> keyboard</h3>
+              <p>
+                This code is open source under an MIT license.  The source code is available on GitHub.  Please
+                add your model of keyboard to the source code if you would like to support your specific keyboard layout.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer>
+        <div class="container-fluid">
+          <div class="row sub-footer">
+            <div class="col-md-12 text-center">
+              <p>Software by <a href="https://github.com/mittingphx/" target="_blank">Scott Mitting</a> | Download <a href="https://github.com/mittingphx/KeyboardTester/" target=_blank">here <img src="assets/github.png" width="24"></a></p>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+      <!-- Some Javascript -->
+      <script src="js/jquery-2.1.1.js"></script>
+
+      <script type="module" src="js/KeyboardTester.js"></script>
+
+    </body>
+    </html>

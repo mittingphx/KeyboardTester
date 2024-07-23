@@ -1,0 +1,49 @@
+.btn-clear {
+
+}
+
+.client-box {
+    padding-left: 50%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.client-box .keyboard {
+    transform: translate(-50%) scale(1);
+}
+
+.section {
+    background:#eee;
+    padding: 10px;
+    box-shadow: 3px 3px 3px rgba(0,0,0,0.3);
+    width: 600px;
+}
+.keyboard {
+    background: #d7cab0;
+    position: relative;
+    border: 1px solid black;
+    width: 500px;
+    height: 150px;
+}
+.keyboard .key {
+    border: 1px solid black;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+
+    font: 7px monospace;
+    text-align: center;
+    overflow: hidden;
+}
+.keyboard .NeverPressed {
+    background-color: white;
+    color: black;
+}
+.keyboard .Pressed {
+    background-color: #645d5d;
+    color: white;
+}
+.keyboard .Down {
+    background-color: black;
+    color: white;
+}
