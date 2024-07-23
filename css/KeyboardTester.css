@@ -1,7 +1,10 @@
+
+/* settings form */
 .btn-clear {
 
 }
 
+/* container around keyboard */
 .client-box {
     padding-left: 50%;
     padding-top: 100px;
@@ -11,12 +14,15 @@
     transform: translate(-50%) scale(1);
 }
 
+/* page white background */
 .section {
     background:#eee;
     padding: 10px;
     box-shadow: 3px 3px 3px rgba(0,0,0,0.3);
     width: 600px;
 }
+
+/* keyboard and keys */
 .keyboard {
     background: #d7cab0;
     position: relative;
