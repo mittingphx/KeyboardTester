@@ -663,7 +663,7 @@ abbr[data-original-title] {
 blockquote {
   padding: 10px 20px;
   margin: 0 0 20px;
-  font-size: 17.5px;
+  font-size: 17px;
   border-left: 5px solid #eee;
 }
 blockquote p:last-child,
@@ -1966,7 +1966,7 @@ select[multiple].input-lg {
   position: relative;
 }
 .has-feedback .form-control {
-  padding-right: 42.5px;
+  padding-right: 42px;
 }
 .form-control-feedback {
   position: absolute;
@@ -3497,7 +3497,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-nav {
-  margin: 7.5px -15px;
+  margin: 7px -15px;
 }
 .navbar-nav > li > a {
   padding-top: 10px;
