@@ -1166,13 +1166,13 @@ export class KeyboardTester {
     scaleToParent() {
         // only scale if width has changed
         let element = this.keyboard.$dom;
-        if (this.#lastWidth && this.#lastWidth === element.clientWidth) {
+        let parent = element.parentElement;
+        if (this.#lastWidth && this.#lastWidth === parent.clientWidth) {
             return;
         }
-        this.#lastWidth = element.clientWidth;
+        this.#lastWidth = parent.clientWidth;
 
         // scale to fit nicely in container
-        let parent = element.parentElement;
         let scaleX = parent.clientWidth / element.clientWidth;
         scaleX *= 0.9;
         element.style.transform = 'translate(-50%) scale(' + scaleX + ')';
